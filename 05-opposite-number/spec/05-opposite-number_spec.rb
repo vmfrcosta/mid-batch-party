@@ -1,0 +1,1 @@
+Test.assert_equals(opposite(1), -1, msg = nil)
