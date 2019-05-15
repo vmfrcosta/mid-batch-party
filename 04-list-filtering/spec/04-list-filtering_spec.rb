@@ -1,6 +1,6 @@
 require 'list_filtering'
 
-describe "" do
+describe "List Filter" do
 	it "Should list just 1 Number" do
 		# Code structure
 		Test.assert_equals(filter_list([1,2,'a','b']),[1,2])
