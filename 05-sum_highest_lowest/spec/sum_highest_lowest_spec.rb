@@ -2,7 +2,7 @@ require 'sum_highest_lowest'
 
 describe "Should return the right sum" do
 	it "for this array elements:" do
-		expect(sum([ 6, 2, 1, 8, 10 ]).to eq(16)
+		expect(sum([ 6, 2, 1, 8, 10 ])).to eq(16)
 	end
 
 	it "for this array elements:" do
