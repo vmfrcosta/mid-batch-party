@@ -1,7 +1,7 @@
 require "sum_positive"
 
 describe "positive_sum" do
-  it "works for some examples" do
+  it "expected number should be:" do
     expect(positive_sum([1,2,3,4,5])).to eq(15)
     expect(positive_sum([1,-2,3,4,5])).to eq(13)
     expect(positive_sum([-1,2,3,4,-5])).to eq(9)
