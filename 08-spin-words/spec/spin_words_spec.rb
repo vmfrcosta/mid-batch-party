@@ -1,0 +1,1 @@
+require 'spin_words'
