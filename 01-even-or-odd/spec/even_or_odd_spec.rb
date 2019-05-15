@@ -2,7 +2,10 @@ require 'even_or_odd'
 
 describe "Solution" do
   it "should test for something" do
-    # Test.assert_equals("actual", "expected", "This is just an example of how you can write your own TDD tests")
-    
+		expect(even_or_odd(2)).to eq("Even")
+		expect(even_or_odd(0)).to eq("Even")
+		expect(even_or_odd(7)).to eq("Odd")
+		expect(even_or_odd(1)).to eq("Odd")
+		expect(even_or_odd(-1)).to eq("Odd")
   end
 end
