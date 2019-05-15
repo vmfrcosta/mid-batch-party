@@ -1,7 +1,7 @@
 require 'even_or_odd'
 
 describe "Solution" do
-  it "should test for something" do
+  it "Return 'Odd' or 'Even'" do
 		expect(even_or_odd(2)).to eq("Even")
 		expect(even_or_odd(0)).to eq("Even")
 		expect(even_or_odd(7)).to eq("Odd")
