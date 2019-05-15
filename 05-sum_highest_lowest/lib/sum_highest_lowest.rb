@@ -1,3 +1,3 @@
 def sum(numbers_array)
-	# Code me here!
+	Code me here!
 end
