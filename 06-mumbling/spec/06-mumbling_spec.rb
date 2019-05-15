@@ -12,5 +12,4 @@ describe "Should return" do
 	it "Sould return the certain characters number" do 
 		expect(accum("cwAt")).to eq("C-Ww-Aaa-Tttt")
 	end
-
 end
