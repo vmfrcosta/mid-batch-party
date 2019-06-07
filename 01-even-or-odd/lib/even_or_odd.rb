@@ -1,3 +1,7 @@
 def even_or_odd(number)
-  # Code Me Here!
+  if number % 2 == 0
+  	return "Even"
+  else
+  	return "Odd"
+  end # Code Me Here!
 end
