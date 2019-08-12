@@ -5,5 +5,5 @@ Write a function that takes in a string of one or more words, and returns the sa
 ``
 spinWords("Hey fellow warriors") => "Hey wollef sroirraw" 
 spinWords("This is a test") => "This is a test" 
-spinWords("This is another test")=> "This is rehtona test"
+spinWords("This is another test") => "This is rehtona test"
 ``

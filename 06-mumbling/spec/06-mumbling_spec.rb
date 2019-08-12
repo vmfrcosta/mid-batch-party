@@ -6,7 +6,7 @@ describe "Should return" do
 	end
 
 	it "Sould return the certain characters number" do 
-		expect(accum("RqaEzty")).to eq("R-Qq-Aaa-Eeee-Zzzzz-Yyyyyy")
+		expect(accum("RqaEzty")).to eq("R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy")
 	end
 
 	it "Sould return the certain characters number" do 
