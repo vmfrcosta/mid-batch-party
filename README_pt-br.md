@@ -3,39 +3,39 @@
 
 <img align="right" srcset="https://i.imgsafe.org/2c/2c024270b3.gif, https://i.imgsafe.org/2c/2c024270b3.gif 1.5x, https://i.imgsafe.org/2c/2c024270b3.gif 2x" src="https://i.imgsafe.org/2c/2c024270b3.gif" width="150px;" />
 
-Nós queremos te desafiar! E por isso preparemos neste repositório, alguns desafios em `Ruby`
+Nós queremos te desafiar! E por isso preparemos neste repositório, alguns desafios em `Ruby` 👩‍💻
 
-Esse repositório foi criado com a proposta de codar e beber! Assim como no filme **[A Rede Social](https://awesome.re)**
+Esse repositório foi criado com a proposta de codar e beber! Assim como no filme **[A Rede Social!](https://awesome.re)**
 
-Agradecimentos especiais para [Ana](https://github.com/glaucia86) e [Roberto](https://github.com/lucasgomide) que se propuseram em ajudar com ótimas ideias e modificações ❤️
+Agradecimentos especiais para [Ana]() e [Roberto]() que se propuseram em ajudar com ótimas ideias e modificações ❤️
 
 
 
 ## Bem Vindos a Mid-Batch Party! 🔥
 
-Uma festa átipica, com muita gente bacana, drinks, códigos e um clima de Jogos Vorazes pra harmonizar toda essa competição etilíca!
+Uma festa átipica, com pessoas bacanas, drinks, rakes errados e claro, com a trilha sonora dos Jogos Vorazes pra harmonizar toda competição etilíca!
 
-- [Canais Brasileiros para Pessoas Desenvolvedoras](#canais-brasileiros-para-pessoas-desenvolvedoras)
-	- [Banco de Dados & Bancos Não Relacionais 💾](#banco-de-dados--bancos-n%C3%A3o-relacionais-)
-	- [Desenvolvimento Back-End 💻](#desenvolvimento-back-end-)
-	- [Desenvolvimento Front-End 💻](#desenvolvimento-front-end-)
-	- [Desenvolvimento Mobile Nativo & Híbrido 📱](#desenvolvimento-mobile-nativo--h%C3%ADbrido-)
-	- [Entrevista, Webinars & Dicas 📣](#entrevista-webinars--dicas-)
-	- [Infraestrutura 🖧 ](#infraestrutura-)
-	- [Inteligência Artificial 🤖](#intelig%C3%AAncia-artificial-)
-	- [Games :video_game:](#games-video_game)
-	- [Lógica de Programacao](#l%C3%B3gica-de-programacao)
-	- [Segurança 🔐](#seguran%C3%A7a-)
+Já na próxima semana, **Rails** entrará de vez em nossas vidas, e com isso o Ruby se tornará de novo presente em nosso dia a dia, e vocês precisarão lembrar de alguns conceitos vistos nas primeiras semanas 
 
 ## Regras 📌
 
 
 #### • 1º Divisão dos Times 💾
-- Os times serão divididos de acordo com os grupos criados pelo **Kitt**
-- Os jogadores se revezam durante cada desafio, 
-- [Nataniel Paiva Oficial](https://www.youtube.com/channel/UCjit8ssBmA7pWISOEqFtbAw) - Canal focado em MongoDb. _Tags: `mongodb`_
-- [Sthefane Soares - Vida Programação](https://www.youtube.com/channel/UCcgvGfLMZ8Xh8lxhFPMqjLw) - Canal que trata de programação e opinião própria sobre softwares. Para apaixonados por Tecnologia da Informação. _Tags: `java`,`android`, `ionic`, `c#`, `sql`_
+- Os times serão divididos de acordo com os grupos criados pelo **Kitt**;
+- Cada programador ou programadora se reveza durante os desafios;
 
+#### • 2º Desafios e Testes 💾
+- Os testes serão executados ao rodarem o **Rake**;
+
+- A equipe que cumprir todos o pré-requisitos de cada rodada de testes no Rake e finalizar primeiro ganhará **1 ponto**
+
+- Cada programador ou programadora se reveza durante os desafios;
+
+- Cada jogador que codou na rodada deverá sofrer as consequências das regras do jogo, tanto p/ perder ou ganhar, ou talvez não ganhar nem perder, apenas se divertir.
+
+#### • 3º Marcando o ponto 💾
+
+- A equipe que terminar o teste com êxito
 
 
 ## Os Desafios 🤖
@@ -65,8 +65,15 @@ O metodo receberá um `Array` de números.
 
 ### • Contador de Vogais 🙌
 
-Retorne a quantia final de vogais contadas em uma string.
-O metodo receberá um `Array` de números.
+Retorne o número (contagem) final de vogais em uma string.
+
+Considere `'a', 'e', 'i', 'o', 'u'` como as vogais desta challenge
+
+As string do teste vão consistir somente de caractéres
+
+> We will consider a, e, i, o, and u as vowels for this challenge.
+
+> The input string will only consist of lower case letters and/or spaces.
 
 É o seu papel fazer com que este método retorne a soma, **exclusivamente**, dos números **positivos!**
 
