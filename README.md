@@ -69,9 +69,7 @@ Retorne o número (contagem) final de vogais em uma string.
 
 Considere `'a', 'e', 'i', 'o', 'u'` como as vogais desta challenge
 
-As string do teste vão consistir somente de caractéres
-
-É o seu papel fazer com que este método retorne a soma, **exclusivamente**, dos números **positivos!**
+As strings do teste vão consistir somente de letras!
 
 
 > **Exemplo:**
