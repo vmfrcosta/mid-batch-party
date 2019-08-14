@@ -1,70 +1,83 @@
-## Welcome to the first Hunger 'Mid Batch Party' Wagon Game!
 
-#### This repo was created for fun and code purposes (:
+# Vocês estão prontos Wagoners?
 
-Here are the challenges:
+<img align="right" srcset="https://i.imgsafe.org/2c/2c024270b3.gif, https://i.imgsafe.org/2c/2c024270b3.gif 1.5x, https://i.imgsafe.org/2c/2c024270b3.gif 2x" src="https://i.imgsafe.org/2c/2c024270b3.gif" width="150px;" />
 
-#### • First Challenge:
-> Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+Nós queremos te desafiar! E por isso preparemos neste repositório, alguns desafios em `Ruby` 👩‍💻
 
-#### • Second Challenge:
-> You get an array of numbers, return the sum of all of the positives ones.
+Esse repositório foi criado com a proposta de codar e beber! Assim como no filme **[A Rede Social!](https://awesome.re)**
 
-> Example `[1,-4,7,12]` => 1 + 7 + 12 = 20
+Agradecimentos especiais para [Ana]() e [Roberto]() que se propuseram em ajudar com ótimas ideias e modificações ❤️
 
-> Note: if there is nothing to sum, the sum is default to 0.
 
-#### • Third Challenge:
-> Return the number (count) of vowels in the given string.
 
-> We will consider a, e, i, o, and u as vowels for this challenge.
+## Bem Vindos a Mid-Batch Party! 🔥
 
-> The input string will only consist of lower case letters and/or spaces.
+Uma festa átipica, com pessoas bacanas, drinks, rakes errados e claro, com a trilha sonora dos Jogos Vorazes pra harmonizar toda competição etilíca!
 
-#### Fourth Challenge:
-> In this challenge you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+Já na próxima semana, **Rails** entrará de vez em nossas vidas, e com isso o Ruby se tornará de novo presente em nosso dia a dia, e vocês precisarão lembrar de alguns conceitos vistos nas primeiras semanas 
 
-> #### Example: 
+## Regras 📌
 
-> `` filter_list([1,2,'a','b']) == [1,2]
-filter_list([1,'a','b',0,15]) == [1,0,15]
-filter_list([1,2,'aasf','1','123',123]) == [1,2,123] ``
 
-#### Fifth Challenge:
-> Very simple challenge, given a number, find its opposite!
+#### • 1º Divisão dos Times 👥
+- Os times serão divididos de acordo com os grupos criados pelo **Kitt**;
+- Cada programador ou programadora se reveza durante os desafios;
 
-> #### Examples:
+#### • 2º Desafios e Testes 💾
+- Os testes serão executados ao rodarem o **Rake**;
 
-> ``1: -1
-14: -14
--34: 34``
+- A equipe que cumprir todos o pré-requisitos de cada rodada de testes no Rake e finalizar primeiro ganhará **1 ponto**
 
-#### Sixth Challenge:
-> This time no story, no theory. The examples below show you how to write function accum:
+- Cada programador ou programadora se reveza durante os desafios;
 
-#### Examples:
-> ``accum("abcd") -> "A-Bb-Ccc-Dddd"
-accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-accum("cwAt") -> "C-Ww-Aaa-Tttt"
-The parameter of accum is a string which includes only letters from a..z and A..Z.``
+- Cada jogador que codou na rodada deverá sofrer as consequências das regras do jogo, tanto p/ perder ou ganhar, ou talvez não ganhar nem perder, apenas se divertir.
 
-#### •Seventh Challenge:
+#### • 3º Marcando o ponto 🎉
 
-> Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized *only* if the original word was capitalized.
+- A equipe que terminar o teste com êxito deve correr até a almofada com o desenho de uma gema mais próxima!
 
-> #### Examples: 
-``to_camel_case("the-stealth-warrior") # returns "theStealthWarrior"
-to_camel_case("The_Stealth_Warrior") # returns "TheStealthWarrior"
-``
 
-#### Eight Challenge:
-> Make a program that filters a list of strings and returns a list with only your friends name in it.
+## Que os Desafios Comecem 🤖 !!
 
-> If a name has exactly 4 letters in it, you can be sure that it has to be a friend of yours! Otherwise, you can be sure he's not...
 
-> #### Example:
+### • Par ou Impar? 🙌
 
-``Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"]``
+Escreva uma função em Ruby que receba um `Integer(n)` como **parâmetro** e retorne `"Even"` para números **pares** e `"Odd"` p/ números **ímpares**
 
-> Note: keep the original order of the names in the output.
+----
 
+### • Somatória de Positivos 🙌
+
+O metodo receberá um `Array` de números.
+
+É o seu papel fazer com que este método retorne a soma, **exclusivamente**, dos números **positivos!**
+
+
+> **Exemplo:**
+
+>  `[1,-4,7,12]` => 1 + 7 + 12 = 20
+
+> Nota: se não houver nada p/ somar, o resultado **default** terá de ser 0.
+
+----
+
+
+### • Contador de Vogais 🙌
+
+Retorne o número (contagem) final de vogais em uma string.
+
+Considere `'a', 'e', 'i', 'o', 'u'` como as vogais desta challenge
+
+As string do teste vão consistir somente de caractéres
+
+É o seu papel fazer com que este método retorne a soma, **exclusivamente**, dos números **positivos!**
+
+
+> **Exemplo:**
+
+>  `[1,-4,7,12]` => 1 + 7 + 12 = 20
+
+> Nota: se não houver nada p/ somar, o resultado **default** terá de ser 0.
+
+----
